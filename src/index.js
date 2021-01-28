@@ -27,21 +27,6 @@ ReactDOM.render(
 
   , document.getElementById("category1"));
 
-  ReactDOM.render(
-    <React.Fragment>
-      <h2>2016</h2>
-      <ol>
-        <li>MoneyHiest</li>
-        <li>Fifty shades of darker</li>
-        <li>Heart boreken</li>
-        <li>MoneyHiest</li>
-        <li>MoneyHiest</li>
-      </ol>
-      <a>Click Here</a>
-    </React.Fragment>
-  
-    , document.getElementById("category1"));
-
     
 
     ReactDOM.render(
@@ -104,11 +89,12 @@ ReactDOM.render(
             </React.Fragment>
           
             , document.getElementById("category5"));
+
             ReactDOM.render(
               <React.Fragment>
                 <h2>2021</h2>
                 <ol>
-                  <li>MirzaPur</li>
+                  <li>50 shdades of dakers</li>
                   <li>Fifty shades of darker</li>
                   <li>Heart boreken</li>
                   <li>MoneyHiest</li>

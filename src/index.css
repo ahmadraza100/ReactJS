@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgb(141,237,188);
+  background: linear-gradient(90deg, rgba(141,237,188,1) 0%, rgba(200,149,255,1) 100%, rgba(255,255,255,1) 100%);
 }
 
 #root {
@@ -12,24 +14,27 @@ body {
     flex-direction:column;
     align-items:center;
     justify-content: center;
-    width:100vw;
+    width:100%;
     margin:0px auto;
 }
 
 #root h1{
  color:red;
  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
- background-color: black;
+ background: rgb(2,0,36);
+ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(27, 26, 32) 24%, rgb(133, 134, 134) 100%);
  padding:30px;
  /* border-radius:30px; */
  width:100%;
  margin-top: 0px;
  text-align: center;
+ box-shadow: 5px 5px 10px black;
 }
 
 #root p{
-  color:black;
+  color:rgb(0, 0, 0);
   font-size:2rem;
+  font-weight: bold;
 }
 .category{
   background-color:rgb(241, 7, 53);
